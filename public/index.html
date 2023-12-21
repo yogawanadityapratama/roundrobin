@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/source/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/scss/styles.css">
+    <link rel="stylesheet" href="/source/css/styles.css">
+    <title>RoundRobin</title>
+</head>
+<body>
+    <form id="roundRobinForm">
+        <label for="processes">Processes: </label><br>
+        <input type="text" id="processes" placeholder="Process..." required><br><br>
+
+        <label for="burstTimes">Burst Times: </label><br>
+        <input type="text" id="burstTimes" placeholder="Burst Time..." required><br><br>
+
+        <label for="quantumTime">Quantum Time: </label><br>
+        <input type="number" id="quantumTime" placeholder="Quantum Time..." required><br><br>
+
+        <button type="button" onclick="runRoundRobin(), runScheduler()">Run Round Robin</button>
+    </form><br>
+    <div id="output"></div>
+    <div id="list"></div>
+    <h1 class="s128">Round Robin Scheduling</h1>
+    <div class="name">
+        <div class="tag s24">
+            Yogawan Adit | 5220411056
+        </div>
+        <div class="tag s24">
+            Miko Dian | 5220411056
+        </div>
+    </div>
+    <script src="/source/js/script.js"></script>
+    <script src="/source/js/rb.js"></script>
+</body>
+</html>
